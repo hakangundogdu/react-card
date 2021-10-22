@@ -1,30 +1,37 @@
 import React from 'react';
+import Stats from './Stats';
+
 import './index.css';
 import cardImage from './images/image-header-desktop.jpg';
 
 function App() {
   return (
     <div className="App">
-      <main class="container">
-        <section class="card">
-          <div class="card-text">
-            <h1 class="card-text-title">
-              Get <span class="text-accent">insights</span> that help your
+      <main className="container">
+        <div className="card">
+          <div className="card-text">
+            <h1 className="card-text-title">
+              Get <span className="text-accent">insights</span> that help your
               business grow.
             </h1>
-            <p class="card-text-copy text-transparent">
+            <p className="card-text-copy text-transparent">
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
-          <div class="card-image">
+          <div className="stats-container">
+            <Stats value="10K" text="Companies"></Stats>
+            <Stats value="350" text="Templates"></Stats>
+            <Stats value="12M+" text="Queries"></Stats>
+          </div>
+          <div className="card-image">
             <img
-              class="img-bw"
+              className="img-bw"
               src={cardImage}
               alt="three colleagues at work"
             ></img>
           </div>
-        </section>
+        </div>
       </main>
     </div>
   );
