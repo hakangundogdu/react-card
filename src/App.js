@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './index.css';
+import cardImage from './images/image-header-desktop.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main class="container">
+        <section class="card">
+          <div class="card-text">
+            <h1 class="card-text-title">
+              Get <span class="text-accent">insights</span> that help your
+              business grow.
+            </h1>
+            <p class="card-text-copy text-transparent">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="card-image">
+            <img
+              class="img-bw"
+              src={cardImage}
+              alt="three colleagues at work"
+            ></img>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
