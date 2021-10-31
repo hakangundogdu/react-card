@@ -77,15 +77,15 @@ body {
   line-height: 1.6rem;
 }
 
-.card-text-stats {
+.stats-container {
   display: flex;
   gap: 4rem;
 }
 
-.card-text-stats p {
+.stat-value {
   font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 1.9rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }
 
 .stats-detail {

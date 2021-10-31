@@ -18,12 +18,13 @@ function App() {
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
+            <div className="stats-container">
+              <Stats value="10K" text="Companies"></Stats>
+              <Stats value="350" text="Templates"></Stats>
+              <Stats value="12M+" text="Queries"></Stats>
+            </div>
           </div>
-          <div className="stats-container">
-            <Stats value="10K" text="Companies"></Stats>
-            <Stats value="350" text="Templates"></Stats>
-            <Stats value="12M+" text="Queries"></Stats>
-          </div>
+
           <div className="card-image">
             <img
               className="img-bw"
