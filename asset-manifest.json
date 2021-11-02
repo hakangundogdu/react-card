@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-card/static/css/main.cc124c44.chunk.css",
+    "main.js": "/react-card/static/js/main.f3ad19c1.chunk.js",
+    "main.js.map": "/react-card/static/js/main.f3ad19c1.chunk.js.map",
+    "runtime-main.js": "/react-card/static/js/runtime-main.5910678f.js",
+    "runtime-main.js.map": "/react-card/static/js/runtime-main.5910678f.js.map",
+    "static/js/2.b0c7a459.chunk.js": "/react-card/static/js/2.b0c7a459.chunk.js",
+    "static/js/2.b0c7a459.chunk.js.map": "/react-card/static/js/2.b0c7a459.chunk.js.map",
+    "static/js/3.9c88369a.chunk.js": "/react-card/static/js/3.9c88369a.chunk.js",
+    "static/js/3.9c88369a.chunk.js.map": "/react-card/static/js/3.9c88369a.chunk.js.map",
+    "index.html": "/react-card/index.html",
+    "static/css/main.cc124c44.chunk.css.map": "/react-card/static/css/main.cc124c44.chunk.css.map",
+    "static/js/2.b0c7a459.chunk.js.LICENSE.txt": "/react-card/static/js/2.b0c7a459.chunk.js.LICENSE.txt",
+    "static/media/image-header-desktop.72d6e2a0.jpg": "/react-card/static/media/image-header-desktop.72d6e2a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5910678f.js",
+    "static/js/2.b0c7a459.chunk.js",
+    "static/css/main.cc124c44.chunk.css",
+    "static/js/main.f3ad19c1.chunk.js"
+  ]
+}
